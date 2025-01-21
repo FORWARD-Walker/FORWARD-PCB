@@ -1,5 +1,5 @@
 
-(footprint SOD2513X120N (layer F.Cu) (tedit 67818829)
+(footprint SOD2513X120N (layer F.Cu) (tedit 678FF521)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.032 -1.4064 0) (layer F.SilkS)
