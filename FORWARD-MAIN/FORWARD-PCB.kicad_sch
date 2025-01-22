@@ -12139,7 +12139,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x14_Pin"
+		(property "Value" "Conn_01x14_Socket"
 			(at 168.91 163.195 0)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_14-G-3.81_1x14_P3.81mm_Horizontal"
 			(at 167.64 162.56 0)
 			(effects
 				(font
