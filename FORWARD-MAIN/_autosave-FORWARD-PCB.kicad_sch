@@ -7759,16 +7759,6 @@
 		)
 		(uuid "0a797bb9-4771-48d7-b647-47e6251d3ed3")
 	)
-	(label "Wheels-IO16-27"
-		(at 254 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b240f10-6b79-4b55-9a12-217f19f23551")
-	)
 	(label "TRIG_1"
 		(at 254 111.76 0)
 		(effects
@@ -7818,16 +7808,6 @@
 			(justify left bottom)
 		)
 		(uuid "1847069e-edda-4e28-a4fe-3fba02ab96f8")
-	)
-	(label "Wheels-IO17-28"
-		(at 142.24 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1869d3aa-d25b-41b7-9c95-fbe106fc52bf")
 	)
 	(label "Haptics-IO32"
 		(at 142.24 154.94 180)
@@ -7929,16 +7909,6 @@
 		)
 		(uuid "36950bba-0f2e-43a0-97d6-d38b84753a89")
 	)
-	(label "LIGHT-IO4-26"
-		(at 254 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c5057e5-9174-4c63-8a6e-95b16fdae0de")
-	)
 	(label "USB_DN"
 		(at 110.49 72.39 0)
 		(effects
@@ -8009,6 +7979,16 @@
 		)
 		(uuid "457c211a-4181-4549-b102-410a51395d3a")
 	)
+	(label "Wheels-IO16-27"
+		(at 254 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f8c549f-227b-48ae-b45a-d3a4ec24f464")
+	)
 	(label "Haptics-IO26"
 		(at 142.24 149.86 180)
 		(effects
@@ -8078,6 +8058,16 @@
 			(justify left bottom)
 		)
 		(uuid "6d301cff-8184-4db3-a1cf-5503fb20a2ca")
+	)
+	(label "LIGHT-IO4-26"
+		(at 254 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e48605a-3dd6-43a0-9375-8ba580d9890e")
 	)
 	(label "RXD0"
 		(at 254 63.5 0)
@@ -8159,6 +8149,16 @@
 		)
 		(uuid "7e4684df-c880-46cf-baff-9ab9e6903609")
 	)
+	(label "Wheels-IO16-27"
+		(at 142.24 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e878b14-28e3-42be-b1bb-c3f906c25cec")
+	)
 	(label "TXD"
 		(at 187.96 62.23 180)
 		(effects
@@ -8229,16 +8229,6 @@
 		)
 		(uuid "8ae0c469-90e6-45a3-8714-aef9f42b3e17")
 	)
-	(label "Wheels-IO16-27"
-		(at 142.24 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9091f0de-9596-43cd-85ac-93b561bdd37c")
-	)
 	(label "Haptics-IO27"
 		(at 142.24 152.4 180)
 		(effects
@@ -8308,16 +8298,6 @@
 			(justify left bottom)
 		)
 		(uuid "b21f7ce8-07df-4e8e-8709-760d0dc8aac0")
-	)
-	(label "Wheels-IO5-29"
-		(at 142.24 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2b04c29-eaed-40f8-83df-777baa44baa1")
 	)
 	(label "EN"
 		(at 110.49 120.65 0)
@@ -8489,6 +8469,16 @@
 		)
 		(uuid "ec976e54-03b6-45c7-9342-0c9a0435dad0")
 	)
+	(label "Wheels-IO17-28"
+		(at 142.24 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1aa8f02-4394-4ac2-9bf3-4467ad4426d5")
+	)
 	(label "TRIG_3"
 		(at 254 91.44 0)
 		(effects
@@ -8518,6 +8508,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb8b8b48-6a48-4f77-8e16-b3891ed3091f")
+	)
+	(label "Wheels-IO5-29"
+		(at 142.24 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe50c5c0-ff98-4e55-b4cb-4c10cf60674b")
 	)
 	(label "SDA"
 		(at 259.08 30.48 0)
