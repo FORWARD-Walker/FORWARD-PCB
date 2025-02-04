@@ -1,5 +1,5 @@
 
-(footprint VREG_LM7805MPX_NOPB (layer F.Cu) (tedit 6793C723)
+(footprint VREG_LM7805MPX_NOPB (layer F.Cu) (tedit 679D49A0)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -0.025 -4.754 0) (layer F.SilkS)

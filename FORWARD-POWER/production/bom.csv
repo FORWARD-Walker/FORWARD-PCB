@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0805,1,47uF,
+"C2, C3",0805,2,22uF,
+C4,0805,1,220uF,
+D1,0805,1,LED,
+"D2, D3",D_A-405_P7.62mm_Horizontal,2,D,
+"J1, J2",PinHeader_1x03_P2.54mm_Vertical,2,Conn_01x03_Pin,
+"J3, J5",PinHeader_1x01_P2.54mm_Vertical,2,Conn_01x01_Pin,
+J4,"TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",1,Screw_Terminal_01x04,
+R1,0805,1,2k,
+U1,SOT-223-3_TabPin2,1,AMS1117-3.3,
+U2,SOT-223-3_TabPin2,1,AMS1117-5.0,
+VR2,VREG_LM7805MPX_NOPB,1,LM7805MPX_NOPB,
