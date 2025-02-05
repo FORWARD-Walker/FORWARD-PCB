@@ -1,4 +1,4 @@
-24654685038802485
+24665137100638589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99358,12 +99358,54 @@ BAT_2477
 2
 2
 footprints
+DIOAD1990W125L900D530
+
+
+0
+2
+2
+footprints
+IND_BOURNS_SRR7045
+
+SRR7045-331M 
+0
+2
+2
+footprints
+PCAP_8x10-ELECT_NCA
+
+UWT1E331MNL1GS 
+0
+2
+2
+footprints
+PCAP_8x10-ELECT_NCA-L
+
+UWT1E331MNL1GS 
+0
+2
+2
+footprints
+PCAP_8x10-ELECT_NCA-M
+
+UWT1E331MNL1GS 
+0
+2
+2
+footprints
 SOD2513X120N
 
 
 0
 2
 2
+footprints
+TO-220-5T_MCH
+
+LM2576-5.0WT 
+0
+5
+5
 footprints
 TRANS_SS8050-G
 
