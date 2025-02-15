@@ -8137,8 +8137,8 @@
 		(uuid "ff1b339b-5f6a-4452-9edd-b18722ebd3fe")
 	)
 	(rectangle
-		(start 16.51 143.51)
-		(end 58.42 190.5)
+		(start 22.86 152.4)
+		(end 49.53 181.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -8275,6 +8275,17 @@
 		)
 		(uuid "685b9160-cb3c-4385-99ca-c061d10a67a4")
 	)
+	(text "Harmonic Cancellation"
+		(exclude_from_sim no)
+		(at 68.834 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eb44fd6-f79e-4b9b-9080-058234d99b00")
+	)
 	(text "output only"
 		(exclude_from_sim no)
 		(at 269.748 78.486 0)
@@ -8353,7 +8364,7 @@
 	)
 	(text "3.3V communication"
 		(exclude_from_sim no)
-		(at 27.94 27.94 0)
+		(at 50.038 23.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8364,7 +8375,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 17.78 147.32 0)
+		(at 28.194 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16310,7 +16321,7 @@
 		(dnp no)
 		(uuid "f83292fc-1c50-42f2-826d-2ffca14f2aa1")
 		(property "Reference" "J2"
-			(at 161.29 170.1799 0)
+			(at 161.036 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16319,7 +16330,7 @@
 			)
 		)
 		(property "Value" "Conn_01x14_Socket"
-			(at 161.29 172.7199 0)
+			(at 161.29 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
