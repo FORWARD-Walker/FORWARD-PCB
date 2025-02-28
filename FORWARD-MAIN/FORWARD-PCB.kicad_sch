@@ -5891,7 +5891,7 @@
 		(uuid "1ecbf261-d23b-40ba-820d-db45f750ca05")
 	)
 	(junction
-		(at 92.71 128.27)
+		(at 115.57 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a19a4f5-610e-44aa-b7e9-e8023dfbda3f")
@@ -5957,7 +5957,7 @@
 		(uuid "825a475f-2ba4-4595-aae2-631c0510141e")
 	)
 	(junction
-		(at 66.04 128.27)
+		(at 88.9 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8804f1c-e00a-4fa9-88dc-187dc14f9a94")
@@ -6114,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 128.27) (xy 110.49 128.27)
+			(xy 127 130.81) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6214,7 +6214,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 120.65) (xy 92.71 120.65)
+			(xy 119.38 123.19) (xy 115.57 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +6374,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 128.27) (xy 83.82 128.27)
+			(xy 100.33 130.81) (xy 106.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6394,7 +6394,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 120.65) (xy 110.49 120.65)
+			(xy 129.54 123.19) (xy 133.35 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6434,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 128.27) (xy 110.49 120.65)
+			(xy 133.35 130.81) (xy 133.35 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6654,7 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 99.06 128.27)
+			(xy 115.57 130.81) (xy 121.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6724,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 63.5) (xy 214.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ccc770-c8de-4a22-8ab4-46ab102945ec")
+	)
+	(wire
+		(pts
 			(xy 102.87 48.26) (xy 102.87 52.07)
 		)
 		(stroke
@@ -6784,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 83.82 120.65)
+			(xy 102.87 123.19) (xy 106.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6794,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 72.39 128.27)
+			(xy 88.9 130.81) (xy 95.25 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6814,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 120.65) (xy 66.04 120.65)
+			(xy 92.71 123.19) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6864,16 +6874,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 34.29) (xy 269.24 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619c9699-2f39-41d0-b32c-21d62ecfd65c")
-	)
-	(wire
-		(pts
 			(xy 245.11 109.22) (xy 254 109.22)
 		)
 		(stroke
@@ -6904,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 66.04 128.27)
+			(xy 88.9 123.19) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7134,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 128.27) (xy 83.82 120.65)
+			(xy 106.68 130.81) (xy 106.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7214,16 +7214,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 63.5) (xy 214.63 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eece8cb-4069-4b49-ba9b-da9d49e253a9")
-	)
-	(wire
-		(pts
 			(xy 170.18 31.75) (xy 160.02 31.75)
 		)
 		(stroke
@@ -7251,16 +7241,6 @@
 			(type default)
 		)
 		(uuid "8ff26131-b0b5-4a81-a47f-56e8671e1607")
-	)
-	(wire
-		(pts
-			(xy 269.24 48.26) (xy 269.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90bfff21-e267-4177-947e-7f52853f0cc8")
 	)
 	(wire
 		(pts
@@ -7314,7 +7294,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 120.65) (xy 92.71 128.27)
+			(xy 115.57 123.19) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7394,7 +7374,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 92.71 130.81)
+			(xy 115.57 130.81) (xy 115.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7511,16 +7491,6 @@
 			(type default)
 		)
 		(uuid "b2faa8a0-fbce-4d2e-80df-fcd247cb9d0b")
-	)
-	(wire
-		(pts
-			(xy 280.67 34.29) (xy 280.67 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b387b38b-c8c9-4de5-ab59-5fa9992be237")
 	)
 	(wire
 		(pts
@@ -7754,7 +7724,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 66.04 130.81)
+			(xy 88.9 130.81) (xy 88.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7974,16 +7944,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 34.29) (xy 280.67 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efba48fe-e775-4ac2-81cb-8086fc342dd4")
-	)
-	(wire
-		(pts
 			(xy 24.13 64.77) (xy 30.48 64.77)
 		)
 		(stroke
@@ -8179,8 +8139,8 @@
 		(uuid 41a291cb-37a4-4786-add7-6224d4dc6fe8)
 	)
 	(rectangle
-		(start 57.15 113.03)
-		(end 116.84 134.62)
+		(start 80.01 115.57)
+		(end 139.7 137.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -8262,7 +8222,7 @@
 	)
 	(text "output only"
 		(exclude_from_sim no)
-		(at 269.494 60.706 0)
+		(at 261.62 60.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8283,7 +8243,7 @@
 	)
 	(text "output only"
 		(exclude_from_sim no)
-		(at 269.494 55.626 0)
+		(at 245.872 55.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8305,7 +8265,7 @@
 	)
 	(text "output only"
 		(exclude_from_sim no)
-		(at 269.748 78.486 0)
+		(at 261.62 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8349,7 +8309,7 @@
 	)
 	(text "UART Bridge Buttons"
 		(exclude_from_sim no)
-		(at 95.25 133.35 0)
+		(at 118.11 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8424,7 +8384,7 @@
 	)
 	(text "output only"
 		(exclude_from_sim no)
-		(at 272.288 68.326 0)
+		(at 268.986 68.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8435,7 +8395,6 @@
 	)
 	(label "USB_DP"
 		(at 110.49 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8446,7 +8405,6 @@
 	)
 	(label "LIGHT-IO4-26"
 		(at 254 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8457,7 +8415,6 @@
 	)
 	(label "SCL"
 		(at 247.65 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,7 +8425,6 @@
 	)
 	(label "VBUS"
 		(at 86.36 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8479,7 +8435,6 @@
 	)
 	(label "SCL"
 		(at 254 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8490,7 +8445,6 @@
 	)
 	(label "Wheel_R_LPWM"
 		(at 137.16 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8501,7 +8455,6 @@
 	)
 	(label "Wheel_L_LPWM"
 		(at 137.16 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8512,7 +8465,6 @@
 	)
 	(label "Haptics-IN4"
 		(at 137.16 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8523,7 +8475,6 @@
 	)
 	(label "ECHO_3"
 		(at 39.37 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,9 +8483,18 @@
 		)
 		(uuid "1e6279ef-3d21-404a-9554-188328d28df4")
 	)
+	(label "EN"
+		(at 106.68 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20fd34f7-2719-4558-a927-17554fbf6515")
+	)
 	(label "Haptics-IN4"
 		(at 254 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8545,7 +8505,6 @@
 	)
 	(label "Haptics-IN2"
 		(at 254 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8556,7 +8515,6 @@
 	)
 	(label "USB_DP"
 		(at 154.94 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8567,7 +8525,6 @@
 	)
 	(label "Wheel_L_RPWM"
 		(at 254 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8578,7 +8535,6 @@
 	)
 	(label "Haptics-ENB_PWM"
 		(at 254 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8589,7 +8545,6 @@
 	)
 	(label "GND"
 		(at 254 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8600,7 +8555,6 @@
 	)
 	(label "RXD0"
 		(at 68.58 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,20 +8563,8 @@
 		)
 		(uuid "2af26b00-312e-458c-b77e-53e6c155209b")
 	)
-	(label "IO0"
-		(at 83.82 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b2ca35a-6b1b-4abc-b487-037ea8344819")
-	)
-	(label "IO0"
+	(label "BOOT"
 		(at 106.68 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8633,7 +8575,6 @@
 	)
 	(label "ECHO_4"
 		(at 254 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8644,7 +8585,6 @@
 	)
 	(label "Haptics-ENB_PWM"
 		(at 137.16 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8655,7 +8595,6 @@
 	)
 	(label "DCD"
 		(at 187.96 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8666,7 +8605,6 @@
 	)
 	(label "TRIG_4"
 		(at 25.4 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8675,20 +8613,8 @@
 		)
 		(uuid "36950bba-0f2e-43a0-97d6-d38b84753a89")
 	)
-	(label "PHOTO-IO2-24"
-		(at 251.46 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38ab6c3d-e4fe-48de-9984-ea6c7be24810")
-	)
 	(label "USB_DN"
 		(at 110.49 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8699,7 +8625,6 @@
 	)
 	(label "RTS"
 		(at 68.58 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8710,7 +8635,6 @@
 	)
 	(label "Haptics-IN2"
 		(at 137.16 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8721,7 +8645,6 @@
 	)
 	(label "EN"
 		(at 204.47 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8732,7 +8655,6 @@
 	)
 	(label "DTR"
 		(at 68.58 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8741,9 +8663,18 @@
 		)
 		(uuid "5fb655c4-97a8-4df4-ae8d-7c0607ec2967")
 	)
+	(label "TRIG_1"
+		(at 254 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62f06ccf-218d-4865-a606-4b969fe93ba8")
+	)
 	(label "EN"
 		(at 204.47 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8754,7 +8685,6 @@
 	)
 	(label "TXD0"
 		(at 254 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8765,7 +8695,6 @@
 	)
 	(label "RXD0"
 		(at 254 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8776,7 +8705,6 @@
 	)
 	(label "TRIG_1"
 		(at 25.4 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8787,7 +8715,6 @@
 	)
 	(label "SDA"
 		(at 254 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8798,7 +8725,6 @@
 	)
 	(label "P0W-IO13-16"
 		(at 137.16 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8809,7 +8735,6 @@
 	)
 	(label "Wheel_L_LPWM"
 		(at 254 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8820,7 +8745,6 @@
 	)
 	(label "Haptics-ENA_PWM"
 		(at 254 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8831,7 +8755,6 @@
 	)
 	(label "Wheel_R_RPWM"
 		(at 137.16 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,9 +8763,18 @@
 		)
 		(uuid "7bdbfd0e-ac3d-4fcb-b190-9c15e0f5da8e")
 	)
+	(label "BOOT"
+		(at 133.35 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ce75070-dfe9-4096-bfe3-26aaa12ed4ed")
+	)
 	(label "ECHO_1"
 		(at 39.37 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8853,7 +8785,6 @@
 	)
 	(label "GND"
 		(at 254 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8864,7 +8795,6 @@
 	)
 	(label "DTR"
 		(at 187.96 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8875,7 +8805,6 @@
 	)
 	(label "TXD"
 		(at 187.96 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8886,7 +8815,6 @@
 	)
 	(label "EN"
 		(at 106.68 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8897,7 +8825,6 @@
 	)
 	(label "RXD"
 		(at 187.96 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8906,9 +8833,18 @@
 		)
 		(uuid "80c79005-0492-486e-9369-3ff53f983958")
 	)
+	(label "ECHO_1"
+		(at 254 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a59bb3e-fc8b-4e6d-8200-8296b3700906")
+	)
 	(label "TRIG_3"
 		(at 25.4 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8919,7 +8855,6 @@
 	)
 	(label "Haptics-ENA_PWM"
 		(at 137.16 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8930,7 +8865,6 @@
 	)
 	(label "RXD"
 		(at 90.17 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8941,7 +8875,6 @@
 	)
 	(label "TRIG_3"
 		(at 254 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8952,7 +8885,6 @@
 	)
 	(label "Haptics-IN3"
 		(at 254 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8963,7 +8895,6 @@
 	)
 	(label "Haptics-IN3"
 		(at 137.16 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8974,7 +8905,6 @@
 	)
 	(label "ECHO_4"
 		(at 39.37 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8985,7 +8915,6 @@
 	)
 	(label "TXD0"
 		(at 68.58 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8996,7 +8925,6 @@
 	)
 	(label "LIGHT-IO4-26"
 		(at 137.16 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9007,7 +8935,6 @@
 	)
 	(label "RTS"
 		(at 187.96 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9016,31 +8943,8 @@
 		)
 		(uuid "add0dcb4-4e39-4130-91b9-6046091687a8")
 	)
-	(label "ECHO_1"
-		(at 254 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af741cdb-c8a3-43ef-94c3-e9e1a0c238c0")
-	)
-	(label "EN"
-		(at 110.49 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b301f112-2dbb-4eb5-8d7e-8283a4562c00")
-	)
 	(label "ACTIVE"
 		(at 184.15 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9051,7 +8955,6 @@
 	)
 	(label "SCL"
 		(at 30.48 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9062,7 +8965,6 @@
 	)
 	(label "TXD"
 		(at 90.17 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9071,20 +8973,8 @@
 		)
 		(uuid "bea4d5f6-c0c6-4836-9221-ce7cffd878f6")
 	)
-	(label "TRIG_1"
-		(at 254 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1bd9900-78a7-4e4c-9088-cf331cf6e3da")
-	)
 	(label "Haptics-IN1"
 		(at 137.16 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9095,7 +8985,6 @@
 	)
 	(label "USB_DN"
 		(at 154.94 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9104,9 +8993,8 @@
 		)
 		(uuid "c94a54b8-3d5b-4545-9bd4-0bb165f0f8bc")
 	)
-	(label "IO0"
+	(label "BOOT"
 		(at 215.9 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9117,7 +9005,6 @@
 	)
 	(label "TRIG_2"
 		(at 25.4 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9126,20 +9013,8 @@
 		)
 		(uuid "cebd7cda-54f0-4f97-a80d-d917b09a8892")
 	)
-	(label "IO0"
-		(at 207.01 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d189c03b-968d-44d4-8242-c24c5387b325")
-	)
 	(label "ECHO_3"
 		(at 254 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9150,7 +9025,6 @@
 	)
 	(label "CTS"
 		(at 187.96 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9161,7 +9035,6 @@
 	)
 	(label "TRIG_2"
 		(at 254 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9172,7 +9045,6 @@
 	)
 	(label "ECHO_2"
 		(at 254 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9183,7 +9055,6 @@
 	)
 	(label "TRIG_4"
 		(at 254 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9194,7 +9065,6 @@
 	)
 	(label "P0W-IO13-16"
 		(at 207.01 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9205,7 +9075,6 @@
 	)
 	(label "Haptics-IN1"
 		(at 254 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9216,7 +9085,6 @@
 	)
 	(label "Wheel_R_LPWM"
 		(at 254 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,7 +9095,6 @@
 	)
 	(label "SDA"
 		(at 40.64 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9238,7 +9105,6 @@
 	)
 	(label "DSR"
 		(at 187.96 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9249,7 +9115,6 @@
 	)
 	(label "Wheel_R_RPWM"
 		(at 254 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9260,7 +9125,6 @@
 	)
 	(label "Wheel_L_RPWM"
 		(at 137.16 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9271,7 +9135,6 @@
 	)
 	(label "SCL"
 		(at 40.64 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9282,7 +9145,6 @@
 	)
 	(label "RI"
 		(at 187.96 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9293,7 +9155,6 @@
 	)
 	(label "ECHO_2"
 		(at 39.37 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9302,9 +9163,28 @@
 		)
 		(uuid "eec3c1be-f83b-45a6-8c18-855a51b301a4")
 	)
+	(label "BOOT"
+		(at 276.86 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1866a8c-0e6b-4d47-b31a-0b0a7043bf45")
+	)
+	(label "PHOTO-IO2-24"
+		(at 207.01 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6ed969e-ad82-484a-ac2f-4c57e6f3c1f1")
+	)
 	(label "PHOTO-IO2-24"
 		(at 137.16 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9315,7 +9195,6 @@
 	)
 	(label "SDA"
 		(at 30.48 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9326,7 +9205,6 @@
 	)
 	(label "SDA"
 		(at 248.92 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9554,7 +9432,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 101.6 128.27 270)
+		(at 124.46 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9563,7 +9441,7 @@
 		(fields_autoplaced yes)
 		(uuid "0728346c-0f73-492e-a772-0d62f36bb77a")
 		(property "Reference" "C2"
-			(at 101.5936 123.19 90)
+			(at 124.4536 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9449,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 101.5936 125.73 90)
+			(at 124.4536 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9457,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.6 128.27 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 128.27 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 128.27 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11082,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 120.65 0)
+		(at 97.79 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11213,7 +11091,7 @@
 		(fields_autoplaced yes)
 		(uuid "483404cb-99c7-4ecf-996e-25c152f58578")
 		(property "Reference" "Reset1"
-			(at 74.93 114.3 0)
+			(at 97.79 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11099,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 116.84 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +11107,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 74.93 115.57 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +11116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 115.57 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,7 +11125,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 120.65 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +11916,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 130.81 270)
+		(at 88.9 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12047,7 +11925,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a518c24-b6f3-4225-b4a9-3e43928a1f08")
 		(property "Reference" "#PWR029"
-			(at 59.69 130.81 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +11934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 131.445 90)
+			(at 85.09 133.985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +11943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 130.81 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +11952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 130.81 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +11961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 130.81 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,76 +12933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 269.24 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d869eb4-ace0-456d-924e-7523bbd0c163")
-		(property "Reference" "R12"
-			(at 271.78 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 271.78 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 270.256 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51d4a504-46f6-4e9f-91a6-a76c7624a321")
-		)
-		(pin "2"
-			(uuid "6c9f1614-0201-4906-a25a-6b6e12699398")
-		)
-		(instances
-			(project "FORWARD-PCB"
-				(path "/14af6270-5b72-4d89-9edf-6e095454c696"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 29.21 163.83 270)
 		(unit 1)
@@ -13902,71 +13710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 280.67 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9eefe3aa-5df7-4e22-8b35-dff0e5e759ee")
-		(property "Reference" "#PWR036"
-			(at 280.67 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 280.162 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c4624ef-3700-4353-82f7-29f705cb12f5")
-		)
-		(instances
-			(project "FORWARD-PCB"
-				(path "/14af6270-5b72-4d89-9edf-6e095454c696"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 240.03 36.83 90)
 		(unit 1)
@@ -14113,7 +13856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 130.81 270)
+		(at 115.57 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14122,7 +13865,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4731192-d1d7-44a8-9d65-78370ebbc04a")
 		(property "Reference" "#PWR030"
-			(at 86.36 130.81 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,7 +13874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 131.445 90)
+			(at 111.76 133.985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +13883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 130.81 0)
+			(at 115.57 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +13892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 130.81 0)
+			(at 115.57 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +13901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 130.81 0)
+			(at 115.57 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +14655,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 101.6 120.65 0)
+		(at 124.46 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14921,7 +14664,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0178436-9fc0-47ee-9d53-4db2c2029eed")
 		(property "Reference" "Boot1"
-			(at 101.6 114.3 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,7 +14672,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 116.84 0)
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14680,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 101.6 115.57 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +14689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 115.57 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +14698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 120.65 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,76 +15408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd4d2a1d-df5f-4678-960a-6c442adddb85")
-		(property "Reference" "D4"
-			(at 271.78 49.2124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 271.78 51.7524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 269.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 269.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8929da73-b2b3-4f04-9359-c99ef7952593")
-		)
-		(pin "2"
-			(uuid "80c4504b-b28b-468b-96d4-925f7d800ed6")
-		)
-		(instances
-			(project "FORWARD-PCB"
-				(path "/14af6270-5b72-4d89-9edf-6e095454c696"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 213.36 19.05 0)
 		(unit 1)
@@ -16072,7 +15745,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 74.93 128.27 270)
+		(at 97.79 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16081,7 +15754,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4927235-07e7-443a-9fa3-b37d3c2c57c3")
 		(property "Reference" "C1"
-			(at 74.9236 123.19 90)
+			(at 97.7836 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +15762,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 74.9236 125.73 90)
+			(at 97.7836 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +15770,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 74.93 128.27 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16106,7 +15779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 128.27 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +15788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 128.27 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
