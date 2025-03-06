@@ -8393,6 +8393,17 @@
 		)
 		(uuid "eea6beb8-1fc7-40b1-9c03-254ddd326106")
 	)
+	(label "Haptics-ENB_PWM"
+		(at 259.08 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01f97cc1-1c18-4fce-bd52-64997b35ae18")
+	)
 	(label "USB_DP"
 		(at 110.49 69.85 0)
 		(fields_autoplaced yes)
@@ -8403,6 +8414,17 @@
 			(justify left bottom)
 		)
 		(uuid "0505f86c-017b-4de6-8aba-2dbeb94e9244")
+	)
+	(label "Haptics-ENA_PWM"
+		(at 254 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a413b67-704b-4461-827e-3b6773d53f3d")
 	)
 	(label "SCL"
 		(at 247.65 22.86 0)
@@ -8425,6 +8447,17 @@
 			(justify left bottom)
 		)
 		(uuid "10e994eb-4aae-4556-b1d2-38019877ba6b")
+	)
+	(label "Wheel_R_LPWM"
+		(at 259.08 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "184163b3-f413-4202-ba57-f765862de667")
 	)
 	(label "Wheel_R_LPWM"
 		(at 137.16 182.88 180)
@@ -8481,28 +8514,6 @@
 		)
 		(uuid "20fd34f7-2719-4558-a927-17554fbf6515")
 	)
-	(label "Haptics-IN4"
-		(at 259.08 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "229180a4-4e24-4a56-914c-76a320aaaee4")
-	)
-	(label "Haptics-IN2"
-		(at 254 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2523e291-0180-4251-8841-46862ae824b0")
-	)
 	(label "USB_DP"
 		(at 154.94 80.01 180)
 		(fields_autoplaced yes)
@@ -8524,17 +8535,6 @@
 			(justify left bottom)
 		)
 		(uuid "259c1fca-44e9-4dde-b04f-13df3b9d6e8b")
-	)
-	(label "Haptics-ENB_PWM"
-		(at 259.08 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27543e0a-c184-478c-82b1-fdda8dbecfc1")
 	)
 	(label "GND"
 		(at 254 116.84 0)
@@ -8579,6 +8579,17 @@
 			(justify left bottom)
 		)
 		(uuid "32773601-9212-4594-8e2a-3378bd04a42e")
+	)
+	(label "Haptics-IN2"
+		(at 259.08 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3421db13-17d7-4871-9911-9d50b2e39c3c")
 	)
 	(label "Haptics-ENB_PWM"
 		(at 137.16 167.64 180)
@@ -8635,8 +8646,8 @@
 		)
 		(uuid "3ff950cd-90af-4119-a160-ead86940e5b1")
 	)
-	(label "Wheel_R_RPWM"
-		(at 259.08 66.04 0)
+	(label "SCL"
+		(at 254 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8644,7 +8655,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4de9cebe-f308-4d69-bf80-51fb28c58bea")
+		(uuid "44a7fabe-3ae8-4d16-a078-321b610df59c")
+	)
+	(label "TRIG_2"
+		(at 254 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "468f38b8-c9d2-4941-a4b5-9e6b27a91281")
 	)
 	(label "Haptics-IN2"
 		(at 137.16 157.48 180)
@@ -8668,17 +8690,6 @@
 		)
 		(uuid "519ad140-aa5d-459d-9be1-40845ff975c5")
 	)
-	(label "Wheel_R_LPWM"
-		(at 259.08 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54004698-2684-46a0-8ebc-bed791d6f544")
-	)
 	(label "DTR"
 		(at 68.58 25.4 0)
 		(fields_autoplaced yes)
@@ -8690,8 +8701,8 @@
 		)
 		(uuid "5fb655c4-97a8-4df4-ae8d-7c0607ec2967")
 	)
-	(label "TRIG_1"
-		(at 254 106.68 0)
+	(label "Haptics-IN1"
+		(at 259.08 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8699,7 +8710,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "62f06ccf-218d-4865-a606-4b969fe93ba8")
+		(uuid "60e3f000-7f8c-415d-8e2d-657cb9b853cf")
+	)
+	(label "Wheel_R_RPWM"
+		(at 259.08 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "660eea8d-c6de-425b-8ffe-66fece061be3")
 	)
 	(label "EN"
 		(at 204.47 58.42 180)
@@ -8745,17 +8767,6 @@
 		)
 		(uuid "720ca485-2023-41a2-8468-222090983dac")
 	)
-	(label "LIGHT-IO4-26"
-		(at 259.08 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74c9b7d2-6cf9-462c-aa21-74e2343024ff")
-	)
 	(label "P0W-IO13-16"
 		(at 137.16 170.18 180)
 		(fields_autoplaced yes)
@@ -8767,6 +8778,17 @@
 		)
 		(uuid "76553383-a653-4b87-b5aa-46ee8b4caa7a")
 	)
+	(label "Haptics-IN3"
+		(at 259.08 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79665312-d1c4-487c-a26c-d8fed47da4a7")
+	)
 	(label "Wheel_L_LPWM"
 		(at 259.08 81.28 0)
 		(fields_autoplaced yes)
@@ -8777,17 +8799,6 @@
 			(justify left bottom)
 		)
 		(uuid "7980aaa4-5166-4955-abc3-915193981ec9")
-	)
-	(label "Haptics-ENA_PWM"
-		(at 259.08 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ad19fe5-7c76-4080-939b-529b99711262")
 	)
 	(label "Wheel_R_RPWM"
 		(at 137.16 185.42 180)
@@ -8877,6 +8888,17 @@
 		)
 		(uuid "80c79005-0492-486e-9369-3ff53f983958")
 	)
+	(label "LIGHT-IO4-26"
+		(at 259.08 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c80b65-4064-47cb-b2aa-321d585d0908")
+	)
 	(label "ECHO_1"
 		(at 254 111.76 0)
 		(fields_autoplaced yes)
@@ -8921,8 +8943,8 @@
 		)
 		(uuid "8ae0c469-90e6-45a3-8714-aef9f42b3e17")
 	)
-	(label "SCL"
-		(at 259.08 68.58 0)
+	(label "SDA"
+		(at 254 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8930,18 +8952,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ec89d39-f2e7-4de4-9f5e-9cb16d2e36ba")
-	)
-	(label "Haptics-IN3"
-		(at 254 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9052ef8f-328c-40fe-974f-ba44a041fce4")
+		(uuid "8f24d410-72a8-4791-8971-c41ae554a822")
 	)
 	(label "Haptics-IN3"
 		(at 137.16 160.02 180)
@@ -8954,6 +8965,17 @@
 		)
 		(uuid "9870c6f9-0bef-4a98-bdf8-107231508ce7")
 	)
+	(label "TRIG_1"
+		(at 254 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d092578-a9be-435b-9276-f77bba49c830")
+	)
 	(label "ECHO_4"
 		(at 39.37 106.68 0)
 		(fields_autoplaced yes)
@@ -8964,17 +8986,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fd588d6-1b21-4a48-9b9f-722c9bc27e26")
-	)
-	(label "SDA"
-		(at 259.08 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a06f9f7f-8a8d-4d5e-bad6-74fbf5c5ca64")
 	)
 	(label "TXD0"
 		(at 68.58 166.37 0)
@@ -9119,17 +9130,6 @@
 		)
 		(uuid "d357170e-395d-4b16-ac97-bcfbcedc8687")
 	)
-	(label "TRIG_2"
-		(at 254 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d37a5177-eb26-4412-a56f-eca834f4ba20")
-	)
 	(label "ECHO_2"
 		(at 254 114.3 0)
 		(fields_autoplaced yes)
@@ -9151,17 +9151,6 @@
 			(justify right bottom)
 		)
 		(uuid "d7722ad9-77f0-499c-9402-71e0f3aba2a8")
-	)
-	(label "Haptics-IN1"
-		(at 254 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d89f8ba3-7d60-4d1f-b528-db62be5f10f9")
 	)
 	(label "SDA"
 		(at 40.64 22.86 180)
@@ -9195,6 +9184,17 @@
 			(justify right bottom)
 		)
 		(uuid "e30c5796-88da-4633-9f86-158b49f0d4b9")
+	)
+	(label "Haptics-IN4"
+		(at 259.08 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8476db4-173e-4ba2-bc10-fc3e72bffa39")
 	)
 	(label "SCL"
 		(at 40.64 25.4 180)
