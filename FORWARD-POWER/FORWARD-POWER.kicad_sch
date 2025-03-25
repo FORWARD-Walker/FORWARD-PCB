@@ -3209,6 +3209,12 @@
 		(uuid "174142f8-8e1a-4273-b91f-f9cf236e6baf")
 	)
 	(junction
+		(at 233.68 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "367cef74-ef67-4645-bb34-0823a5a95a97")
+	)
+	(junction
 		(at 151.13 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3231,6 +3237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a53bafdc-b452-4397-965d-2de11a5cb2d9")
+	)
+	(junction
+		(at 233.68 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40e8606-bc3a-48e8-b950-8f663508c53e")
 	)
 	(junction
 		(at 139.7 43.18)
@@ -3298,6 +3310,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 125.73) (xy 233.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f0bd45-0af6-4241-ba83-1a040505bc26")
+	)
+	(wire
+		(pts
 			(xy 148.59 40.64) (xy 148.59 43.18)
 		)
 		(stroke
@@ -3328,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 212.09 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2819d0eb-992d-47dc-b803-5dbe5a48d692")
-	)
-	(wire
-		(pts
 			(xy 107.95 52.07) (xy 107.95 59.69)
 		)
 		(stroke
@@ -3348,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 187.96 82.55)
+			(xy 181.61 87.63) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3428,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 128.27) (xy 240.03 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ac1b0a-f480-4b31-ad83-4e0aabcf5fab")
+	)
+	(wire
+		(pts
 			(xy 139.7 43.18) (xy 148.59 43.18)
 		)
 		(stroke
@@ -3448,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 146.05) (xy 240.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558c8493-4c5e-4c3c-b83d-b600fc113547")
+	)
+	(wire
+		(pts
 			(xy 139.7 52.07) (xy 139.7 53.34)
 		)
 		(stroke
@@ -3458,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 125.73) (xy 233.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575ed63e-9761-4c78-b5ed-c5156b064eb3")
+	)
+	(wire
+		(pts
 			(xy 102.87 52.07) (xy 102.87 59.69)
 		)
 		(stroke
@@ -3465,6 +3507,26 @@
 			(type default)
 		)
 		(uuid "57c1d96d-f9a8-41ea-aae3-919565fb28d3")
+	)
+	(wire
+		(pts
+			(xy 233.68 120.65) (xy 233.68 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c809e8c-5f87-4561-a488-28a3f2b0a90f")
+	)
+	(wire
+		(pts
+			(xy 233.68 119.38) (xy 233.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671398e0-45cd-4c77-8640-7adb2162a3c5")
 	)
 	(wire
 		(pts
@@ -3498,6 +3560,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d8fdee-dc62-4380-a144-7dba9afe534d")
+	)
+	(wire
+		(pts
 			(xy 176.53 43.18) (xy 176.53 44.45)
 		)
 		(stroke
@@ -3505,16 +3577,6 @@
 			(type default)
 		)
 		(uuid "86e81f2f-d02d-45b1-afcc-fb38d7e21679")
-	)
-	(wire
-		(pts
-			(xy 201.93 110.49) (xy 212.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877aa5c1-1bd9-4d38-8ddf-53f72217fea2")
 	)
 	(wire
 		(pts
@@ -3558,6 +3620,46 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 143.51) (xy 240.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3dea44-388f-49b5-aeda-6c3f2e70e469")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a248607d-8d18-4c5a-b67e-cc63a7412951")
+	)
+	(wire
+		(pts
+			(xy 227.33 140.97) (xy 240.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f13d0f-3b76-4561-a485-297ba225506c")
+	)
+	(wire
+		(pts
+			(xy 237.49 148.59) (xy 237.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a821cbef-9fdf-4556-b97a-2fa0f010a927")
+	)
+	(wire
+		(pts
 			(xy 120.65 130.81) (xy 120.65 135.89)
 		)
 		(stroke
@@ -3565,16 +3667,6 @@
 			(type default)
 		)
 		(uuid "a930309f-c8e9-4d8f-bf53-7923c96978f4")
-	)
-	(wire
-		(pts
-			(xy 203.2 115.57) (xy 212.09 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab885a85-b07b-4299-b61b-3ca97231f624")
 	)
 	(wire
 		(pts
@@ -3598,6 +3690,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 128.27) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c11e48-31bf-4b00-b7e9-2ce4b2b28981")
+	)
+	(wire
+		(pts
 			(xy 153.67 115.57) (xy 153.67 128.27)
 		)
 		(stroke
@@ -3618,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 187.96 87.63)
+			(xy 182.88 90.17) (xy 187.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3648,16 +3750,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 187.96 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7411eb4-9713-4512-ad14-6ffb325f67d5")
-	)
-	(wire
-		(pts
 			(xy 120.65 118.11) (xy 120.65 130.81)
 		)
 		(stroke
@@ -3665,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "e1ca5c77-bdab-4ba7-9772-79321dc5cb50")
+	)
+	(wire
+		(pts
+			(xy 233.68 123.19) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e517ce81-d213-49de-9d93-5b66cad00644")
 	)
 	(wire
 		(pts
@@ -3716,6 +3818,16 @@
 		)
 		(uuid "f4dc9d58-d174-4a0a-a1b3-894f36aa9622")
 	)
+	(wire
+		(pts
+			(xy 227.33 139.7) (xy 227.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b879eb-c53c-49ab-be6c-50f0dfbb0fc6")
+	)
 	(text "battery connections"
 		(exclude_from_sim no)
 		(at 95.504 65.278 90)
@@ -3726,6 +3838,17 @@
 			(justify left bottom)
 		)
 		(uuid "16672d9f-fc96-4e36-b9cb-7f9335d5bc6d")
+	)
+	(text "to Control PCB"
+		(exclude_from_sim no)
+		(at 252.222 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f0d0232-1fa1-414f-9fc1-3fd112cce16c")
 	)
 	(text "to main PCB"
 		(exclude_from_sim no)
@@ -3738,9 +3861,9 @@
 		)
 		(uuid "abe256ee-40ee-4114-a898-8965b0e83ba9")
 	)
-	(text "to Control PCB"
+	(text "to Motor Drivers"
 		(exclude_from_sim no)
-		(at 219.71 108.712 0)
+		(at 252.476 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3760,7 +3883,7 @@
 		(uuid "223f1390-1916-468c-96d5-424683cb2b88")
 	)
 	(label "anet"
-		(at 168.91 85.09 0)
+		(at 171.45 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,6 +3911,72 @@
 			(justify left bottom)
 		)
 		(uuid "76a4d6ce-a01f-43e9-a463-b7cda20e14e8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc7066d-c9d6-4318-a646-ea0ae9fdfde4")
+		(property "Reference" "#PWR019"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 233.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fe171ad-b57f-412f-b3e9-2cf92902ca17")
+		)
+		(instances
+			(project "FORWARD-POWER"
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3997,7 +4186,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 193.04 85.09 180)
+		(at 193.04 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4006,15 +4195,6 @@
 		(fields_autoplaced yes)
 		(uuid "247c9166-398d-4d25-aff9-61afd6a04344")
 		(property "Reference" "J2"
-			(at 194.31 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
 			(at 194.31 86.995 0)
 			(effects
 				(font
@@ -4023,8 +4203,17 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 193.04 85.09 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 194.31 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 85.09 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 85.09 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,16 +4464,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 201.93 110.49 0)
+		(lib_id "power:GND")
+		(at 102.87 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2ead3bea-a43e-4be0-8b5f-834c667f88c9")
-		(property "Reference" "#PWR028"
-			(at 201.93 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "3167069f-f8cc-4133-bc84-4546d1e7115e")
+		(property "Reference" "#PWR018"
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,8 +4482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 200.406 106.934 0)
+		(property "Value" "GND3"
+			(at 102.87 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 110.49 0)
+			(at 102.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 110.49 0)
+			(at 102.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 110.49 0)
+			(at 102.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,12 +4518,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9550fab4-dd46-4d0e-9524-6af11c112548")
+			(uuid "868d4c9f-a311-42b7-b093-ee28bed0f568")
 		)
 		(instances
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "#PWR028")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4735,6 +4925,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+6V")
+		(at 105.41 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5235ee32-fcb1-407a-a61b-d115138e4aab")
+		(property "Reference" "#PWR016"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6V"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece4b795-35da-46b9-91dd-aa2ce4e66c9b")
+		)
+		(instances
+			(project "FORWARD-POWER"
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 96.52 0)
 		(unit 1)
@@ -4860,6 +5116,136 @@
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 222.25 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "575139cc-17ba-48c8-9773-ecd4ef619831")
+		(property "Reference" "#PWR020"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 221.742 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4538352e-0f23-445f-b7f0-1b4db873262d")
+		)
+		(instances
+			(project "FORWARD-POWER"
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 227.33 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cefb824-578a-479a-b8a9-e2b9b7df1797")
+		(property "Reference" "#PWR023"
+			(at 227.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 225.806 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1630909-beff-4a01-a377-c16658a2a6a5")
+		)
+		(instances
+			(project "FORWARD-POWER"
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5091,72 +5477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72eda3a4-0be6-4e7a-8f17-ca693a8468f0")
-		(property "Reference" "#PWR031"
-			(at 203.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND3"
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f28458d5-0956-43fc-a5f8-c5b183b38344")
-		)
-		(instances
-			(project "FORWARD-POWER"
-				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 207.01 64.77 0)
 		(unit 1)
@@ -5285,6 +5605,77 @@
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 245.11 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77b50b34-361b-42ad-90bb-a4e3eb28278a")
+		(property "Reference" "J6"
+			(at 244.856 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 252.476 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e610ded4-795d-4741-bd05-b04a5fe0ccfb")
+		)
+		(pin "2"
+			(uuid "487dc8d5-7b03-4f2a-b9de-ae4d16ba9249")
+		)
+		(pin "1"
+			(uuid "f76791ad-b5f6-4770-a215-89802e0be192")
+		)
+		(instances
+			(project ""
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5509,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 87.63 270)
+		(at 182.88 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5518,7 +5909,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f6873ef-0edf-4356-b05f-277c7fb91f6c")
 		(property "Reference" "#PWR036"
-			(at 176.53 87.63 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 88.265 90)
+			(at 179.07 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 87.63 0)
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 87.63 0)
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 87.63 0)
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6118,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 182.88 82.55 90)
+		(at 181.61 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5736,7 +6127,7 @@
 		(fields_autoplaced yes)
 		(uuid "a551cf63-9cf1-4f09-83d8-415fdc4aef6f")
 		(property "Reference" "#PWR032"
-			(at 186.69 82.55 0)
+			(at 185.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +6136,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 83.185 90)
+			(at 177.8 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +6145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 82.55 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +6154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 82.55 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 82.55 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,72 +6184,6 @@
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "add7294c-a883-440a-98b2-65e50de27bfb")
-		(property "Reference" "#PWR029"
-			(at 194.31 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 194.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c09e7da-f169-4fe9-a193-25b5321b0fce")
-		)
-		(instances
-			(project "FORWARD-POWER"
-				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5925,78 +6250,6 @@
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af99b090-8baa-47fd-954b-6a425a062bf8")
-		(property "Reference" "#PWR018"
-			(at 105.41 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND3"
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c13062b-80a9-42fd-9656-ca6a79dc5cfd")
-		)
-		(instances
-			(project "FORWARD-PCB"
-				(path "/14af6270-5b72-4d89-9edf-6e095454c696"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "FORWARD-POWER"
-				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6264,6 +6517,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 245.11 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc047f79-244d-4161-9636-2e739346bc22")
+		(property "Reference" "J5"
+			(at 247.65 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 247.65 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "44e26a79-2233-4bb6-af95-8e21d893539d")
+		)
+		(pin "1"
+			(uuid "238d932b-ff67-488b-ac80-ac09fcecbe79")
+		)
+		(pin "3"
+			(uuid "cefa8262-8394-4dd2-acb4-27ef92409610")
+		)
+		(pin "2"
+			(uuid "899e790e-6c7f-4803-885a-1f2660f59223")
+		)
+		(instances
+			(project ""
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 207.01 52.07 0)
 		(unit 1)
@@ -6395,16 +6724,15 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 102.87 52.07 0)
+		(at 233.68 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e28ff1e5-b958-4898-b24c-5833cc520a7e")
-		(property "Reference" "#PWR016"
-			(at 102.87 55.88 0)
+		(uuid "c5981756-4d5e-441c-a3cb-8d40e26e138c")
+		(property "Reference" "#PWR017"
+			(at 233.68 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,8 +6740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 102.87 48.26 0)
+		(property "Value" "+12V"
+			(at 232.156 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 52.07 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 52.07 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 52.07 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,12 +6776,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "68903b48-284b-4a15-b0ee-4338da65c2c8")
+			(uuid "de82f640-7097-4d64-b0ac-4e17409ceb5e")
 		)
 		(instances
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "#PWR016")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c677ca72-9778-477d-90f7-ca61368d03c3")
+		(property "Reference" "#PWR025"
+			(at 237.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 237.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9913bee-2b4d-49f0-9d02-8e77a85ea157")
+		)
+		(instances
+			(project "FORWARD-POWER"
+				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6937,79 +7331,6 @@
 			(project "FORWARD-POWER"
 				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 217.17 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8954936-63ac-4ba7-b72f-eb7483edd157")
-		(property "Reference" "J1"
-			(at 218.44 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 218.44 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7a3984ab-9ab7-47f1-abb7-32bb888c22b2")
-		)
-		(pin "2"
-			(uuid "ebac5b10-8148-434f-ba8d-dcc22b9851ed")
-		)
-		(pin "1"
-			(uuid "a10349fb-fad8-45d6-9b34-55403524dedd")
-		)
-		(instances
-			(project ""
-				(path "/ce51f21b-ae90-4513-bbba-00af99e3d46b"
-					(reference "J1")
 					(unit 1)
 				)
 			)
