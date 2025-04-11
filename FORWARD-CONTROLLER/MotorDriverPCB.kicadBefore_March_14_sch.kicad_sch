@@ -371,7 +371,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x16_Pin"
+		(symbol "Connector:Conn_01x15_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -385,8 +385,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x16_Pin"
-				(at 0 -22.86 0)
+			(property "Value" "Conn_01x15_Pin"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -411,7 +411,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x16, script generated"
+			(property "Description" "Generic connector, single row, 01x15, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -446,19 +446,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x16_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -20.32) (xy 0.8636 -20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x15_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -17.78) (xy 0.8636 -17.78)
@@ -637,17 +625,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -20.193)
-					(end 0 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -934,24 +911,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -20.32 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2622,6 +2581,231 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:2N2219"
 			(pin_names
 				(offset 0) hide)
@@ -3432,32 +3616,20 @@
 		(uuid "ee66bf3a-d266-472b-8776-21a150354ed3")
 	)
 	(no_connect
-		(at 246.38 52.07)
-		(uuid "4e44d0ff-fb4f-401d-8d19-ce956379adac")
+		(at 246.38 49.53)
+		(uuid "222cb37d-07ab-4170-8a3d-1f4a070a1cc0")
 	)
 	(no_connect
-		(at 64.77 133.35)
-		(uuid "88b11eb7-bb59-4a26-9f25-70747335a070")
+		(at 259.08 49.53)
+		(uuid "3d102457-982f-4a1f-989f-5343043403a3")
 	)
 	(no_connect
-		(at 64.77 107.95)
-		(uuid "8ce8a0d7-ba14-4068-aaa6-41047c02132e")
+		(at 209.55 49.53)
+		(uuid "87380854-839d-4215-b1e7-e9e73283f55e")
 	)
 	(no_connect
-		(at 64.77 105.41)
-		(uuid "8dbd66b4-dfa5-4c2b-87f9-e42fb83980d6")
-	)
-	(no_connect
-		(at 209.55 54.61)
-		(uuid "b16632fa-8ac3-4f60-bf95-ee8cc5f1d5d4")
-	)
-	(no_connect
-		(at 246.38 54.61)
-		(uuid "d9b68837-d500-452a-8f71-cfd6168c1ec5")
-	)
-	(no_connect
-		(at 209.55 52.07)
-		(uuid "f3a5c2ad-ec20-4609-8a10-7ced5377af45")
+		(at 222.25 49.53)
+		(uuid "e12b94a1-9b96-4cc9-a477-138df3d82c82")
 	)
 	(wire
 		(pts
@@ -3717,7 +3889,7 @@
 	)
 	(rectangle
 		(start 106.68 83.82)
-		(end 248.92 139.7)
+		(end 232.41 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -3786,6 +3958,18 @@
 			(type none)
 		)
 		(uuid c6c333b1-b1fd-4eb9-8486-87bd8043c0ba)
+	)
+	(rectangle
+		(start 101.6 158.75)
+		(end 140.97 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c99d054d-ece1-4d1e-b80a-6272d17bc070)
 	)
 	(rectangle
 		(start 53.34 114.3)
@@ -3949,7 +4133,7 @@
 	)
 	(text "Haptic Motor Driver"
 		(exclude_from_sim no)
-		(at 183.134 82.042 0)
+		(at 171.704 81.788 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,6 +4150,16 @@
 			)
 		)
 		(uuid "a99c11fe-b135-4f5c-a112-f7a401298b9d")
+	)
+	(text "Switches between Drivers and MCU"
+		(exclude_from_sim no)
+		(at 120.904 157.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab76f876-a085-41e8-9646-70dec0530e6b")
 	)
 	(text "Hapt Drv 2 MCU\n"
 		(exclude_from_sim no)
@@ -4034,6 +4228,28 @@
 		(uuid "08bd7e1a-7c53-427d-912a-ed7093dd004a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN3U2"
+		(shape input)
+		(at 246.38 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09469924-f969-426d-9931-03f85fbabbaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,9 +4347,9 @@
 			)
 		)
 	)
-	(global_label "IN3U2"
+	(global_label "IN1U2"
 		(shape input)
-		(at 246.38 49.53 180)
+		(at 209.55 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4141,9 +4357,31 @@
 			)
 			(justify right)
 		)
-		(uuid "21494afd-9f7a-407d-9094-a90dbba4a95e")
+		(uuid "23aef512-c6ca-4047-9f49-583ee6686ecc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.71 49.53 0)
+			(at 200.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2U3"
+		(shape input)
+		(at 64.77 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2632cb6a-b086-41c5-bdfa-63fd501a2ec7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.3744 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,6 +4431,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN2U2"
+		(shape input)
+		(at 222.25 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c514ea9-1b9d-4b6c-9558-d5399efdc12e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4351,6 +4611,28 @@
 			)
 		)
 	)
+	(global_label "ENBU3"
+		(shape input)
+		(at 120.65 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "701c95ae-7b30-47d5-a015-4be6b4edccc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.3753 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN1U3"
 		(shape input)
 		(at 120.65 109.22 180)
@@ -4483,6 +4765,28 @@
 			)
 		)
 	)
+	(global_label "ENBU3"
+		(shape input)
+		(at 113.03 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d636c0-8977-422b-9108-1fabc1a4bc7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.7553 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT3U3"
 		(shape input)
 		(at 142.24 58.42 180)
@@ -4505,31 +4809,53 @@
 			)
 		)
 	)
-	(global_label "IN1U2"
+	(global_label "SW2U3"
 		(shape input)
-		(at 209.55 49.53 180)
+		(at 128.27 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9994b2b5-d68c-46a4-bcf5-f71682eed5d7")
+		(uuid "a4653b2b-dc0e-4ee9-bf21-c4011c9bb51d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.88 49.53 0)
+			(at 137.6656 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "IN4U2"
 		(shape input)
-		(at 246.38 46.99 180)
+		(at 259.08 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa4686dc-b0b8-4800-b176-8a63f79f70d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENAU3"
+		(shape input)
+		(at 113.03 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4537,9 +4863,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a6006918-4f57-463d-b0dc-cfb7f2836f45")
+		(uuid "b1c56a3a-7694-401a-8f62-4ebd8fb0c30e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.71 46.99 0)
+			(at 103.9367 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,6 +4941,28 @@
 			)
 		)
 	)
+	(global_label "ENAU3"
+		(shape input)
+		(at 120.65 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be3e5545-8bf7-45da-bc11-e8d74653d448")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.5567 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PHOTO"
 		(shape input)
 		(at 46.99 30.48 0)
@@ -4650,6 +4998,28 @@
 		(uuid "c59ce5ae-d4ba-4add-9462-04b631dafb2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.8767 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW1U3"
+		(shape input)
+		(at 64.77 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca705ae1-428f-4eef-bb93-826c1941ead7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.3744 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,135 +5205,25 @@
 			)
 		)
 	)
-	(global_label "IN2U2"
+	(global_label "SW1U3"
 		(shape input)
-		(at 209.55 46.99 180)
+		(at 128.27 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fd1af8ac-4ab4-4e97-be79-da6886c4f576")
+		(uuid "effba0ab-4eb0-479e-b38a-8facf62e1081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.88 46.99 0)
+			(at 137.6656 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x16_Pin")
-		(at 69.85 113.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07b4bbab-ec90-491d-8089-b6cf7baf2ae7")
-		(property "Reference" "J1"
-			(at 69.215 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x16_Pin"
-			(at 69.215 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Horizontal"
-			(at 69.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 69.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1e535500-1971-4bf2-8f9b-a946c319e2ee")
-		)
-		(pin "1"
-			(uuid "de510072-d89e-4f83-86ee-de5e7717f65c")
-		)
-		(pin "13"
-			(uuid "b249c0ca-65e6-4a21-b99f-e5f414285c8b")
-		)
-		(pin "6"
-			(uuid "074631ad-54c8-4df7-a477-132d1e74aeed")
-		)
-		(pin "9"
-			(uuid "3ed19827-5c2c-4f56-8982-bd5468d97937")
-		)
-		(pin "10"
-			(uuid "c85e07f9-d432-405a-acd4-950db5a10b62")
-		)
-		(pin "15"
-			(uuid "2701eb73-6e2b-43b8-853f-747c2405c22b")
-		)
-		(pin "14"
-			(uuid "da6aae4c-2e42-4340-9a7b-5306c89eba12")
-		)
-		(pin "16"
-			(uuid "d6b12501-aa54-4cdc-9790-fdbd131cbf95")
-		)
-		(pin "2"
-			(uuid "9fb9bd58-2eb2-413c-848c-a0f830840262")
-		)
-		(pin "11"
-			(uuid "385c51cd-19d7-4fe0-9ebd-21991ccf8e0d")
-		)
-		(pin "12"
-			(uuid "59157eba-c9d6-4f0e-9cef-8e0608627280")
-		)
-		(pin "7"
-			(uuid "8f3fa91e-0ed2-421b-a272-2acbcf369034")
-		)
-		(pin "8"
-			(uuid "41eea79b-baad-4dc7-a0eb-246e2f007157")
-		)
-		(pin "4"
-			(uuid "edc43676-19ef-4d34-a24c-b94008a17caa")
-		)
-		(pin "5"
-			(uuid "f2eb1021-a637-41a0-8576-5d3450e942fe")
-		)
-		(instances
-			(project ""
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "J1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5039,16 +5299,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 156.21 96.52 270)
+		(at 222.25 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e89a69c-5bea-49ef-9fd0-625cfd808c64")
-		(property "Reference" "#PWR024"
-			(at 152.4 96.52 0)
+		(uuid "198ac0b8-22da-4a39-afd9-9539a0ce9cf5")
+		(property "Reference" "#PWR019"
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5317,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 96.5199 90)
+			(at 226.06 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 96.52 0)
+			(at 222.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 96.52 0)
+			(at 222.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 96.52 0)
+			(at 222.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,146 +5353,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f2a310-e2b0-4306-829c-60cd70065621")
+			(uuid "0ece3048-4eb7-4366-8780-27d2592cd8d6")
 		)
 		(instances
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1443346c-3f51-4abb-83c9-c405eed15037")
-		(property "Reference" "#PWR021"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 58.42 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9fd3373-6926-4ce8-9874-96e90e6d9305")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 120.65 104.14 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1689a7ad-3bbe-4049-91a8-3d0f9287aeec")
-		(property "Reference" "#PWR027"
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8802e59f-062e-406d-832f-cf946d9a6e73")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5396,7 +5522,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
@@ -5525,6 +5650,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x02")
+		(at 120.65 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "391a1bd5-ef1d-428a-88e7-e6d76e21f06c")
+		(property "Reference" "SW1"
+			(at 120.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_DIP_x02"
+			(at 120.65 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm"
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd7c14f-5703-424a-bf46-eab1224531dd")
+		)
+		(pin "3"
+			(uuid "ffd3d924-efbd-4da1-8c3a-6864489d0a00")
+		)
+		(pin "2"
+			(uuid "bf84ccfe-ba55-41a0-b2ac-133fc970279e")
+		)
+		(pin "4"
+			(uuid "f61e5397-2667-4a51-8f4c-a84f4311db16")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 92.71 30.48 0)
 		(unit 1)
@@ -5598,6 +5798,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3fb43e03-710a-45dd-bf69-272c1d152841")
 		(property "Reference" "D5"
 			(at 212.09 124.4599 90)
@@ -5609,7 +5810,7 @@
 			)
 		)
 		(property "Value" "STTH212U"
-			(at 180.594 123.19 90)
+			(at 212.09 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,16 +5944,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 54.61 270)
+		(lib_id "power:GND")
+		(at 246.38 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "487b07fd-3a22-4168-8dfb-56f9ab82c4ea")
-		(property "Reference" "#PWR018"
-			(at 255.27 54.61 0)
+		(fields_autoplaced yes)
+		(uuid "500900cf-c2aa-4845-9ccf-11d0cea3e117")
+		(property "Reference" "#PWR08"
+			(at 240.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,17 +5962,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 262.89 54.6101 90)
+		(property "Value" "GND"
+			(at 242.57 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 54.61 0)
+			(at 246.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 54.61 0)
+			(at 246.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,75 +5989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac062014-ef8c-47ca-932b-0f99ed3b3920")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 54.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c0ebca1-92a1-4bb3-b2e4-78c5516a0eec")
-		(property "Reference" "#PWR015"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 54.61 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,12 +5999,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a18828c-9a60-4e42-8f35-edbed8f0ca1e")
+			(uuid "4952621e-7349-4be6-ae8d-a3bf09e2aa7b")
 		)
 		(instances
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5937,6 +6072,140 @@
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "528beed1-852f-4534-a098-fc0b20b6e910")
+		(property "Reference" "#PWR015"
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f19e3e8a-6498-4025-82bb-e8d89d53ca80")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 222.25 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a728de3-90f3-4463-8c52-d3fc9de00a53")
+		(property "Reference" "#PWR016"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 226.06 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba4bc69-a668-49fe-a51c-6c6a1bc46d1a")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6076,6 +6345,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x15_Pin")
+		(at 69.85 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6744300e-2a3a-47fe-9506-a8924da3ba97")
+		(property "Reference" "J1"
+			(at 63.5 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x15_Pin"
+			(at 56.134 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Horizontal"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "6c04b835-3517-48cb-b865-03ceaa1c8cc3")
+		)
+		(pin "11"
+			(uuid "fad93fcf-4ac5-4dd0-a4f2-a711ad28b1f7")
+		)
+		(pin "3"
+			(uuid "f4a547ce-5dd4-49f4-af03-f24ede585add")
+		)
+		(pin "9"
+			(uuid "2e20c087-a732-4ed2-8ecc-aefe1fc5fec9")
+		)
+		(pin "6"
+			(uuid "87954433-0f16-4a51-a16a-d5ca615268dc")
+		)
+		(pin "12"
+			(uuid "4a2a9e6f-1f18-46ed-ad16-77429b1ebaff")
+		)
+		(pin "10"
+			(uuid "30cfc70c-7d6a-4433-b54b-883c90eefbb6")
+		)
+		(pin "13"
+			(uuid "31d548aa-4a37-4751-8ffd-f04764b0af88")
+		)
+		(pin "1"
+			(uuid "1c48a244-5067-4e5e-84eb-9a8482f70597")
+		)
+		(pin "14"
+			(uuid "f77b007a-4a4f-4328-a287-2842c2107cb1")
+		)
+		(pin "2"
+			(uuid "1ddcbc56-f30e-4ab4-8aab-b8213fbccd5b")
+		)
+		(pin "4"
+			(uuid "302384b7-338e-4713-9e35-dce7ac03505b")
+		)
+		(pin "7"
+			(uuid "12075492-771a-4c94-8237-40fc741eac91")
+		)
+		(pin "15"
+			(uuid "32121c6b-89c6-4683-a1ef-c95efc91fc1e")
+		)
+		(pin "5"
+			(uuid "58b58358-0108-4a82-b325-98650bbf026d")
+		)
+		(instances
+			(project ""
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 147.32 58.42 0)
 		(unit 1)
@@ -6103,7 +6481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 147.32 58.42 0)
 			(effects
 				(font
@@ -6140,6 +6518,73 @@
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d5a1f4f-7e2e-40d0-af7b-c459ddc3350a")
+		(property "Reference" "#PWR018"
+			(at 250.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 242.57 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efbf1cb3-222f-4bb1-a13f-5eb3a40179b6")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6206,73 +6651,6 @@
 			(project ""
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f914aaa-056f-4b21-869d-bf854a9b53f9")
-		(property "Reference" "#PWR08"
-			(at 265.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb6953df-e7e7-44de-ad69-e78b39d316d4")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6406,73 +6784,6 @@
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78de7f1d-8ffc-4339-9302-edccd91b26b0")
-		(property "Reference" "#PWR016"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e141e3ef-8729-4a3e-ab67-47ce6d1645ef")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6786,6 +7097,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "938bc580-63cc-4ab3-a7f4-1514a70c1b83")
 		(property "Reference" "D3"
 			(at 205.74 92.7099 90)
@@ -6797,7 +7109,7 @@
 			)
 		)
 		(property "Value" "STTH212U"
-			(at 180.594 96.774 90)
+			(at 205.74 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,17 +7178,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 156.21 93.98 270)
+		(lib_id "power:+12V")
+		(at 156.21 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94260d25-112c-41ef-9fc5-251cbdc1123a")
-		(property "Reference" "#PWR013"
-			(at 152.4 93.98 0)
+		(uuid "959a36aa-8c05-471f-9442-19e1e3725f43")
+		(property "Reference" "#PWR025"
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,8 +7196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 160.02 93.9799 90)
+		(property "Value" "+12V"
+			(at 160.02 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 93.98 0)
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +7215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 93.98 0)
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,8 +7223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,12 +7233,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "82653b19-a795-457d-8eb6-09c06c401f80")
+			(uuid "678d2baf-2689-47f3-839f-15372217fd36")
 		)
 		(instances
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR013")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96857247-b1ef-44ae-8f78-de554ee11b06")
+		(property "Reference" "#PWR020"
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 262.89 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb5c7e8-b94e-405e-9996-acb60022cafa")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7000,73 +7379,6 @@
 			(project ""
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 120.65 101.6 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a25b6ed6-045a-479d-956c-d2ae1223ad9e")
-		(property "Reference" "#PWR026"
-			(at 124.46 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e1752fb-53be-4a8b-bb68-e540126b88ee")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7165,7 +7477,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
@@ -7229,73 +7540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 62.23 60.96 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3ce42ab-d0e1-4ae1-8e8f-d00482fefbde")
-		(property "Reference" "#PWR025"
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 58.42 60.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e01c4397-847b-4d84-aac4-ec38e2a67303")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 147.32 41.91 0)
 		(unit 1)
@@ -7323,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 147.32 41.91 0)
 			(effects
 				(font
@@ -7458,7 +7702,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
@@ -7618,7 +7861,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
@@ -7676,73 +7918,6 @@
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c55ee473-ff05-4995-abd8-84bd5f19e546")
-		(property "Reference" "#PWR019"
-			(at 218.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d716682e-5629-4e29-b911-7a59a389a4ca")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7811,6 +7986,73 @@
 			(project ""
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e4f98a-0b23-4ec7-9a1d-25837729ee96")
+		(property "Reference" "#PWR07"
+			(at 203.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a6d4cf-0573-4fd9-a44c-f33cd23aa2d9")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8001,7 +8243,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
@@ -8059,6 +8300,73 @@
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 62.23 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23276bc-3dff-47c5-b2da-97d6bf636d1a")
+		(property "Reference" "#PWR026"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 58.42 63.5001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e171cb03-1cab-4530-b864-c59db73bc135")
+		)
+		(instances
+			(project "MotorDriverPCB"
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8130,17 +8438,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 46.99 90)
-		(mirror x)
+		(lib_id "power:+5V")
+		(at 156.21 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6c96b57-56d3-4aa7-b997-6c169c438b76")
-		(property "Reference" "#PWR07"
-			(at 228.6 46.99 0)
+		(fields_autoplaced yes)
+		(uuid "e64c276d-f04a-4950-84c4-2e3ad883f33c")
+		(property "Reference" "#PWR013"
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,17 +8456,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 226.06 46.9899 90)
+		(property "Value" "+5V"
+			(at 160.02 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 46.99 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 46.99 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,8 +8483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,12 +8493,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5e7a74d-5041-4357-95db-e3a25629d764")
+			(uuid "33c10e60-352f-4729-a785-64735b248c4e")
+		)
+		(instances
+			(project ""
+				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea24c290-26da-4d66-b5ec-c25b8316ce72")
+		(property "Reference" "#PWR021"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc2e934-b6ef-4ce0-ba2c-d94ae5a5803e")
 		)
 		(instances
 			(project "MotorDriverPCB"
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8498,73 +8873,6 @@
 			(project ""
 				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff6602a5-7ac6-45e1-ac7e-6d88dabcbcde")
-		(property "Reference" "#PWR020"
-			(at 255.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 262.89 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a467e5a9-2493-40d1-9b6d-e4c6897da759")
-		)
-		(instances
-			(project "MotorDriverPCB"
-				(path "/c08a8a39-fb3c-49dc-9739-0b79eee3fa6f"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
